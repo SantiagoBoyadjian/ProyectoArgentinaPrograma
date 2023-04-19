@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.color {
+    background-color: #212236;
+}
+
+header {
+    background-color: #1C1E2E
+}
+
+.nav-pills {
+    margin-left: auto;
+    display: inline-flex;
+    flex-direction: row;
+
+    align-items: center;
+    margin-right: 150px;
+}
+
+.button {
+    font-family: 'PT Sans', sans-serif;
+    color: green
+}
+
+.contenidoHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.tituloHeader {
+    margin-left: 150px;
+}
+
+.tituloHeader span {
+    color: #FC4C59;
+}
+
+.listaHeader {
+    margin-right: 40px;
+}
+
+.parte1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+}
+
+.tituloSobreMi {
+    font-size: 70px;
+}
+
+.descripcionSobreMi {
+    color: gray;
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contenidoParte1 a button {
+    background-color: #FC4C59;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    width: 250px;
+    height: 70px;
+}
+
+.iconos {
+    font-size: 25px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FC4C59;
+}
+
+.casiicono {
+    background-color: aqua;
+    margin-right: 100px;
+}
+
+.iconosHabilidades {
+    font-size: 40px;
+    color: #FC4C59;
+}
+
+.parte2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+}
+
+.contenidoParte2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.caja {
+    color: white;
+    background-color: #2B2E41;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    text-align: start;
+    width: 250px;
+    height: 250px;
+}
+
+.contenidoCaja {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tituloServicios {
+    color: white;
+    font-size: 30px;
+}
+
+.habilidades {
+    color: #FC4C59;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.barraServicios {
+    color: #FC4C59;
+    margin-bottom: 30px;
+    border-bottom: 8px solid #FC4C59;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.cajasDeHabilidades {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tituloCaja {
+    font-weight: bolder;
+}
+
+.parte3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 150px;
+}
+
+.contenidoParte3 form input {
+    border-style: none;
+    width: 650px;
+    height: 80px;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.contenidoParte3 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+::placeholder {
+    color: #1C1F32;
+}
+
+
+
+.lineaVertical {
+    border-bottom: 35px solid white;
+    border-top: 35px solid white;
+    width: 1px;
+}
+
+.enviar {
+    color: #1C1F32;
+    background-color: #FC4C59;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+@media (max-width:500px) {
+    .parte1 {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .parte2 {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .parte3 {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .tituloSobreMi {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .descripcionSobreMi {
+        width: 300px;
+    }
+}
+
+@media (max-width:500px) {
+    .habilidades {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:500px) {
+    .contenidoParte3 form input {
+        width: 300px;
+    }
+}
+
+@media (max-width:500px) {
+    .tituloHeader {
+        margin-left: 0px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .contenidoHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+}
+
+@media (max-width:500px) {
+    .listaHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:500px) {
+    .lineaHorizontal {
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        width: 250px;
+    }
+}
+
+@media (max-width:500px) {
+    .nav-link {
+        font-size: 25px;
+    }
+}
