@@ -8,8 +8,6 @@
 
 - Nos basamos en un portafolio de diseño sencillo pero con colores llamativos para llamar la atención del usuario [https://www.behance.net/gallery/97205839/Developer-Portfolio-Design](https://www.behance.net/gallery/97205839/Developer-Portfolio-Design)
 
-- 👨‍💻 Mis proyectos los puedes ver en [https://github.com/cecibb](https://github.com/cecibb)
-
 - Pueden contactarnos a través de los respectivos mails de cada integrante: **Ceci.Belen13@gmail.com - albornozluana00@gmail.com - albornozluana00@gmail.com**
 
 - ⚡ Fun fact **Nos gusta trabajar en equipo, nos consideramos divertidos.**
