@@ -212,6 +212,10 @@ header {
     width: 1px;
 }
 
+.iconosContacto {
+    margin-right: 30px;
+}
+
 .enviar {
     color: #1C1F32;
     background-color: #FC4C59;
@@ -221,6 +225,7 @@ header {
     font-weight: bold;
     font-family: sans-serif;
 }
+
 
 
 @media (max-width:500px) {
